@@ -1,0 +1,33 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  background: #303f9f;
+  color: white;
+  padding: 20px;
+
+  width: 100%;
+}
+.brand {
+  display: flex;
+  align-items: center;
+}
+.navicon {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+.brandname {
+  font-size: 30px;
+}
+.nav-items {
+  font-size: 30px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  margin: 0 50px;
+  color: white;
+}
+.nav-items a:hover {
+  color: yellow;
+}
