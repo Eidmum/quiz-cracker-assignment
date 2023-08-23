@@ -30,4 +30,6 @@
 }
 .nav-items a:hover {
   color: yellow;
+  background-color: gray;
+  padding: 2px;
 }
