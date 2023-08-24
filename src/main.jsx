@@ -7,6 +7,7 @@ import Main from "./components/Layout/Main.jsx";
 import Blog from "./components/Blog/Blog.jsx";
 import Home from "./components/Home/Home.jsx";
 import Statictics from "./components/Statictics/Statictics.jsx";
+import topicsLoader from "./components/Loader/topicsLoader.js";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
+        loader: topicsLoader,
       },
       {
         path: "/blog",
