@@ -43,7 +43,6 @@ const Option = ({ option, index, correctAnswer }) => {
         <span>{index + ". "}</span>
         {option}
       </p>
-      <ToastContainer />
     </div>
   );
 };
