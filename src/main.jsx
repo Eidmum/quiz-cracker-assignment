@@ -10,6 +10,7 @@ import Statictics from "./components/Statictics/Statictics.jsx";
 import topicsLoader from "./components/Loader/topicsLoader.js";
 import Quiz from "./components/Quiz/Quiz.jsx";
 import quizLoader from "./components/Loader/quizLoader.js";
+import Error from "./components/ErrorPage/Error.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -34,6 +35,7 @@ const router = createBrowserRouter([
         loader: ({ params }) => quizLoader(params.quizId),
       },
     ],
+    errorElement: <Error></Error>,
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
