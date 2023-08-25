@@ -28,6 +28,7 @@ const router = createBrowserRouter([
       {
         path: "/statictics",
         element: <Statictics></Statictics>,
+        loader: topicsLoader,
       },
       {
         path: "/quiz/:quizId",
