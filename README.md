@@ -4,7 +4,7 @@ Moodle is a widely used open-source learning management system (LMS) or e-learni
 
 ### Live Website Link
 
-[https://lambent-bubblegum-2dad2f.netlify.app]([https://www.example.com](https://lambent-bubblegum-2dad2f.netlify.app))
+[https://lambent-bubblegum-2dad2f.netlify.app](https://lambent-bubblegum-2dad2f.netlify.app)
 
 ## Features
 
