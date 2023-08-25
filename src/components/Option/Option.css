@@ -1,0 +1,10 @@
+.option {
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 5px gray;
+  margin: 20px auto;
+  padding: 10px;
+}
+.option p {
+  margin-bottom: 0;
+}

@@ -8,6 +8,8 @@ import Blog from "./components/Blog/Blog.jsx";
 import Home from "./components/Home/Home.jsx";
 import Statictics from "./components/Statictics/Statictics.jsx";
 import topicsLoader from "./components/Loader/topicsLoader.js";
+import Quiz from "./components/Quiz/Quiz.jsx";
+import quizLoader from "./components/Loader/quizLoader.js";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -25,6 +27,11 @@ const router = createBrowserRouter([
       {
         path: "/statictics",
         element: <Statictics></Statictics>,
+      },
+      {
+        path: "/quiz/:quizId",
+        element: <Quiz></Quiz>,
+        loader: ({ params }) => quizLoader(params.quizId),
       },
     ],
   },
