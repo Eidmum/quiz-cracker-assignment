@@ -3,6 +3,7 @@ import { useLoaderData } from "react-router-dom";
 import IndividualQuestion from "../IndividualQuestion/IndividualQuestion";
 import "./Quiz.css";
 import { createContext } from "react";
+import Dashboard from "../Dashboard/Dashboard";
 export const AnsContainer = createContext({});
 const Quiz = () => {
   const questionsData = useLoaderData();
@@ -21,8 +22,8 @@ const Quiz = () => {
   console.log(wrong, correct);
 
   return (
-    <div>
-      <div className="quiz">
+    <div className="quiz row">
+      <div className="quiz col-md-8">
         <h1 className="text-center py-5">{name} Questions</h1>
         <AnsContainer.Provider value={{ correctCounter, wrongCounter }}>
           {questions.map((singleQuestion, index) => (
@@ -34,7 +35,9 @@ const Quiz = () => {
           ))}
         </AnsContainer.Provider>
       </div>
-      <div>This is correct panel</div>
+      <div className="col-md-4 d-flex flex-column  align-items-center dashboard">
+        <Dashboard correct={correct} wrong={wrong}></Dashboard>
+      </div>
     </div>
   );
 };
