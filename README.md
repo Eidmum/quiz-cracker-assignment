@@ -1,8 +1,14 @@
-# React + Vite
+# Moodle Learning Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Moodle is a widely used open-source learning management system (LMS) or e-learning platform.
 
-Currently, two official plugins are available:
+### Live Website Link
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[](https://www.example.com)
+
+## Features
+
+- Students can give quiz.
+- There is a blog section.
+- Students can show their mark.
+- Total questions are showed in chart.
